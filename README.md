@@ -1,14 +1,10 @@
-# Local Homebrew Tap
+# UpSteer Homebrew Tap
 
-This directory is a local Homebrew tap layout for testing `brew install upsteer`
-against the release tarballs already present in this workspace.
+Public Homebrew tap for UpSteer beta releases.
 
-To use it locally:
+Install:
 
 ```bash
-brew tap lazynomad/upsteer /Users/leaf/dev/upsteer/homebrew-upsteer
+brew tap upsteer-ai/upsteer
 brew install upsteer
 ```
-
-The public tap repo still needs to be created and published before this works
-for other machines.
