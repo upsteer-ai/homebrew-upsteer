@@ -6,20 +6,20 @@ class Upsteer < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://upsteer.ai/dist/upsteer/upsteer_darwin_arm64.tar.gz"
-      sha256 "13a644dc5189cd1bebb5b1848c925f89404b5ba556a592702c08a3ecb2283df8"
+      sha256 "4a2fd9ffdd581f4d1db04c79119dca010d755a9f874a9d45b91faea464dc7df7"
     else
       url "https://upsteer.ai/dist/upsteer/upsteer_darwin_amd64.tar.gz"
-      sha256 "a97ffb779a23227fe93f14f2a323e4a2e2761a7eb61cb18587dcefb7cc10d760"
+      sha256 "2f5034df5a3d770b07c3ccf91e03c1db76ffdd32b85fa23266d2e0e8d19fa012"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://upsteer.ai/dist/upsteer/upsteer_linux_arm64.tar.gz"
-      sha256 "932f9d089b5d3209767a1d9fd1d6c3ed9fbe6fc4a95f725c240f9929ed55914c"
+      sha256 "f556153d17e5b140ba11ad7a855f94094685773b1bac11d507255df1691e1568"
     else
       url "https://upsteer.ai/dist/upsteer/upsteer_linux_amd64.tar.gz"
-      sha256 "7a359f1ceb2df8931d17f915774ca69a09d5e90927ca854685e5004046e0a0e4"
+      sha256 "92918f44f25b8c10b1f02c285877ab2df075119426b09b2a42bbfb24daa29525"
     end
   end
 
