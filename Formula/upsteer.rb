@@ -1,25 +1,25 @@
 class Upsteer < Formula
   desc "Local runtime bridge for UpSteer"
   homepage "https://upsteer.ai"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://upsteer.ai/dist/upsteer/upsteer_darwin_arm64.tar.gz"
-      sha256 "4a2fd9ffdd581f4d1db04c79119dca010d755a9f874a9d45b91faea464dc7df7"
+      sha256 "c73db63911c2a2857ffcf4cc9f21e7824cf279d65000eb3fc87269121abf210f"
     else
       url "https://upsteer.ai/dist/upsteer/upsteer_darwin_amd64.tar.gz"
-      sha256 "2f5034df5a3d770b07c3ccf91e03c1db76ffdd32b85fa23266d2e0e8d19fa012"
+      sha256 "2279b6aa82621608523dd766df17146868d251493d1da0255259e37eb6401006"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://upsteer.ai/dist/upsteer/upsteer_linux_arm64.tar.gz"
-      sha256 "f556153d17e5b140ba11ad7a855f94094685773b1bac11d507255df1691e1568"
+      sha256 "f16f52dfc45985ea7fcac7fe28a46364a7b885565ccf3101487022c2be122feb"
     else
       url "https://upsteer.ai/dist/upsteer/upsteer_linux_amd64.tar.gz"
-      sha256 "92918f44f25b8c10b1f02c285877ab2df075119426b09b2a42bbfb24daa29525"
+      sha256 "55ed14748ad0759a0bc689cccb445e4f6e1cf4a3320e829c184cb839845498dc"
     end
   end
 
